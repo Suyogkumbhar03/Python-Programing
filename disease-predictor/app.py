@@ -30,7 +30,7 @@ os.makedirs(HISTORY_FOLDER, exist_ok=True)
 
 # Initialize Gemini Client
 try:
-    client = genai.Client(api_key=GEMINI_API_KEY)
+    client = genai.Client(api_key="AIzaSyDYk6U6Jya9Xr8lvr7A2Rd_d0gdH6-yjro")
 except Exception as e:
     print(f"Error initializing Gemini client: {e}")
     client = None
